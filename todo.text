@@ -1,0 +1,18 @@
+-- Basic Setup 
+1. Create React project -> npm create vite@latest
+2. cd my-apps
+3. npm install
+4. npm run dev
+
+-- Build First React Project
+5. dist file -> npm run build
+
+6. Component Create
+   - write inline JS inside JSX
+   - write multiline JS inside JSX
+   - write Conditional Statement inside JSX
+   - Write LOOP inside JSX
+   - Logical && / Conditional Rendering
+
+7. Special Syntax & Convention
+   -

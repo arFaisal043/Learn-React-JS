@@ -1,0 +1,55 @@
+ques 1: What is React JS ?
+- React is a free and open-source front-end JavaScript library for building user interfaces based on components by Facebook 
+
+ques 2: What is JSX(JavaScript XML) in React?
+- JSX is a syntax extension for JavaScript that lets you write HTML-like markup inside a JavaScript file 
+
+    -- Inline JS in JSX:
+
+            <h1>{2+2}</h1>
+            {3 * 3}
+            <h1>{new Date().getDay()}</h1>
+    
+    -- Write multiline JS inside JSX:
+
+            <h1>
+            {
+              ( () => {
+                let age = 10;
+                return age;
+              } )()
+            }
+            </h1>
+
+    -- write Conditional Statement inside JSX:
+
+            <h1>
+              {
+                ( () => {
+                let age = 10;
+                if(age >= 18) return "Adult";
+                else return "Not Adult";
+                } )()
+              }
+            </h1>   
+
+    -- Write LOOP inside JSX:   
+
+            let cities = ["Dhaka" , "Khulna" , "Rajshahi"];
+            
+            <ul>
+            {
+              cities.map((item , index) => {
+                return <li> {item} </li>
+              })
+            }
+            </ul>    
+
+    -- Logical && / Conditional Rendering:
+
+              let isLogin = true;
+              <h1>
+              {
+                isLogin && <button>Logout</button>
+              }
+              </h1>         
