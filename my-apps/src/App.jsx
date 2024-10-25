@@ -1,13 +1,17 @@
 import React from 'react';
+import './assets/css/style.css'
 
 const App = () => {
 
   let age = 20;
   let cities = ["Dhaka" , "Khulna" , "Rajshahi"];
   let isLogin = true;
+  let haveAccount = false;
 
     return (
         <div>
+
+            
 
             <h1>{2+2}</h1>
             {3 * 3}
@@ -40,8 +44,7 @@ const App = () => {
             }
           </h1>
 
-
-
+          <h1 className='my-text'>This is blue text</h1>
 
         </div>
     );
