@@ -14,5 +14,8 @@
    - Write LOOP inside JSX
    - Logical && / Conditional Rendering
 
-7. Special Syntax & Convention
-   -
+8. Login Form Create
+   - Email , Pass , Submit Button
+
+9. Props (pass Component to another Component)
+   - GrandFather --> Father --> Son

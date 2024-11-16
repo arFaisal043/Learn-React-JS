@@ -1,8 +1,4 @@
-ques 1: What is React JS ?
-- React is a free and open-source front-end JavaScript library for building user interfaces based on components by Facebook 
-
-ques 2: What is JSX(JavaScript XML) in React?
-- JSX is a syntax extension for JavaScript that lets you write HTML-like markup inside a JavaScript file 
+- [ JSX is a syntax extension for JavaScript that lets you write HTML-like markup inside a JavaScript file. ]
 
     -- Inline JS in JSX:
 
